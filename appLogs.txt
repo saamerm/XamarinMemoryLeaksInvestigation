@@ -1,0 +1,50 @@
+
+info: GC_MINOR: (Nursery full) time 0.64ms, stw 0.69ms promoted 158K major size: 4880K in use: 3368K los size: 1024K in use: 627K
+BreakpointCheckpoint()' to /Users/runner/work/1/s/Source/Xamarin.HotReload.Agent/HotReloadAgent.cs:365 [0x00000].
+SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=25064
+SecTaskCopyDebugDescription: XFMemoryLeaks.iO[25064]/0#-1 LF=0
+SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=25064
+SecTaskCopyDebugDescription: XFMemoryLeaks.iO[25064]/0#-1 LF=0
+info: GC_MINOR: (Nursery full) time 0.70ms, stw 0.79ms promoted 99K major size: 4944K in use: 3474K los size: 1024K in use: 635K
+info: GC_MINOR: (Nursery full) time 0.51ms, stw 0.57ms promoted 106K major size: 5088K in use: 3601K los size: 1024K in use: 635K
+8ED96769
+info: GC_MAJOR: (user request) time 8.23ms, stw 8.41ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5232K in use: 3535K
+info: GC_MAJOR: (user request) time 6.29ms, stw 6.68ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5232K in use: 3487K
+1
+info: GC_MINOR: (Nursery full) time 1.59ms, stw 1.70ms promoted 103K major size: 5360K in use: 3603K los size: 1024K in use: 142K
+info: GC_MINOR: (Nursery full) time 0.69ms, stw 0.79ms promoted 116K major size: 5488K in use: 3737K los size: 1024K in use: 142K
+asd
+4D3EC21E
+info: GC_MAJOR: (user request) time 19.24ms, stw 20.02ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5584K in use: 3855K
+info: GC_MAJOR: (user request) time 5.02ms, stw 5.35ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5584K in use: 3824K
+1
+asd
+D8894F2A
+info: GC_MAJOR: (user request) time 5.91ms, stw 6.26ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5680K in use: 3908K
+info: GC_MAJOR: (user request) time 4.77ms, stw 5.25ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5680K in use: 3909K
+2
+info: GC_MAJOR: (user request) time 8.85ms, stw 9.28ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5680K in use: 3888K
+info: GC_MAJOR: (user request) time 7.33ms, stw 7.60ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5680K in use: 3906K
+info: GC_MAJOR: (user request) time 11.49ms, stw 11.92ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5680K in use: 3917K
+info: GC_MAJOR: (user request) time 6.36ms, stw 6.81ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5680K in use: 3918K
+asd
+B6B25D34
+info: GC_MAJOR: (user request) time 5.64ms, stw 6.11ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5696K in use: 3884K
+info: GC_MAJOR: (user request) time 5.15ms, stw 5.52ms los size: 1024K in use: 142K
+info: GC_MAJOR_SWEEP: major size: 5696K in use: 3916K
+3
+info: GC_MINOR: (Nursery full) time 2.51ms, stw 2.69ms promoted 23K major size: 5712K in use: 3941K los size: 1024K in use: 142K
+info: GC_MINOR: (Nursery full) time 50.60ms, stw 126.30ms promoted 4K major size: 5728K in use: 3946K los size: 1024K in use: 142K
+info: GC_MINOR: (Nursery full) time 1.33ms, stw 1.48ms promoted 8K major size: 5728K in use: 3955K los size: 1024K in use: 142K
+info: GC_MINOR: (Nursery full) time 5.73ms, stw 7.16ms promoted 8K major size: 5744K in use: 3964K los size: 1024K in use: 142K
