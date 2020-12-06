@@ -1,13 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using Xamarin.Forms;
 
 namespace XFMemoryLeaks
 {
-    public partial class MainPage : ContentPage
+    public partial class DetailPage : ContentPage
     {
         static int counter;
-        public MainPage()
+        public DetailPage()
         {
             InitializeComponent();
             Console.WriteLine(GetHashCode().ToString("X"));
@@ -20,29 +21,23 @@ namespace XFMemoryLeaks
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            NewPageButton.Clicked += Button_Clicked;
+            DetailButton.Clicked += Button_Clicked;
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            NewPageButton.Clicked -= Button_Clicked;
+            DetailButton.Clicked -= Button_Clicked;
         }
+
         void Button_Clicked(System.Object sender, System.EventArgs e)
         {
             Console.WriteLine("asd");
-            Navigation.PushAsync(new DetailPage());
         }
 
-        void GC_Button_Clicked(System.Object sender, System.EventArgs e)
+        ~DetailPage()
         {
-            GC.Collect();
-            GC.WaitForPendingFinalizers();
-            GC.Collect();
-        }
-
-        ~MainPage()
-        {
+            // Memory Leak: The destructor is not getting called
             Console.WriteLine("About to be collected/disposed");
             Console.WriteLine(GetHashCode().ToString("X"));
             Console.WriteLine(Interlocked.Decrement(ref counter));
