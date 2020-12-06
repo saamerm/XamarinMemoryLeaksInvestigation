@@ -21,16 +21,16 @@ namespace XFMemoryLeaks
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            DetailButton.Clicked += Button_Clicked;
+            DetailButton.Clicked += DetailButton_Clicked;
         }
 
         protected override void OnDisappearing()
         {
             base.OnDisappearing();
-            DetailButton.Clicked -= Button_Clicked;
+            DetailButton.Clicked -= DetailButton_Clicked;
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
+        void DetailButton_Clicked(System.Object sender, System.EventArgs e)
         {
             Console.WriteLine("asd");
         }
@@ -41,6 +41,11 @@ namespace XFMemoryLeaks
             Console.WriteLine("About to be collected/disposed");
             Console.WriteLine(GetHashCode().ToString("X"));
             Console.WriteLine(Interlocked.Decrement(ref counter));
+        }
+
+        async void BackButton_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PopAsync();
         }
     }
 }
